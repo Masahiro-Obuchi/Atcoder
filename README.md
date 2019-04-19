@@ -1,2 +1,2 @@
 # Atcoder
-Atcoderを解いた記録を残します
+AtcoderでACした問題を記録します。
