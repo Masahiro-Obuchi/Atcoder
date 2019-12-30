@@ -23,7 +23,7 @@ inline bool chmax(T &a, T b)
   return false;
 }
 
-long long dp[55][55][11000] = {0};
+long long dp[55][11000][55] = {0};
 
 int main()
 {
@@ -39,33 +39,21 @@ int main()
   // DPループ
   for (int i = 0; i < N; i++)
   {
-    for (int k = 1; k <= K; k++)
+    for (int sum_w = 0; sum_w <= W; sum_w++)
     {
-      for (int sum_w = 0; sum_w <= W; sum_w++)
+      for (int k = 0; k <= K; k++)
       {
-        chmax(dp[i + 1][sum_w][k], dp[i][sum_w][k]);
         // i番目の品物を選ぶ場合
-        if (sum_w - A[i] >= 0)
+        if (sum_w - A[i] >= 0 && k - 1 >= 0)
         {
           chmax(dp[i + 1][sum_w][k], dp[i][sum_w - A[i]][k - 1] + B[i]);
         }
-        // i番目の品物を選ばない場合
-        else
-        {
-          chmax(dp[i + 1][sum_w][k], dp[i][sum_w][k]);
-        }
+
+        chmax(dp[i + 1][sum_w][k], dp[i][sum_w][k]);
       }
     }
   }
-  long long int ans = 0;
-  for (int i = 0; i <= K; i++)
-  {
-    for (int j = 0; j <= W; j++)
-    {
-      ans = max(ans, dp[N][j][i]);
-    }
-  }
-  cout << ans << endl;
+  cout << dp[N][W][K] << endl;
 }
 
-// dp[i][sum_w][k] i-1までの品物から幅がsum_w以下となるように選び, 枚数がk枚の時の重要度の総和の最大値
+// dp[i][sum_w][k] i-1までの品物から幅がsum_w, 枚数がk枚を超えないように選んだ時の重要度の総和の最大値
