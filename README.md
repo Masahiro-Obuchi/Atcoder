@@ -1,2 +1,2 @@
-# Atcoder
-AtcoderでACした問題を記録します。
+# AtCoder
+AtCoderでACした問題を記録します。
