@@ -127,3 +127,5 @@ int main()
   }
   return 0;
 }
+
+// https://drken1215.hatenablog.com/entry/2020/10/11/163600
