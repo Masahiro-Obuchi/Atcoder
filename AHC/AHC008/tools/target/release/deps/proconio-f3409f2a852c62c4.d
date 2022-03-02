@@ -1,0 +1,12 @@
+/home/obuchi/comp_programming/AHC/AHC008/tools/target/release/deps/proconio-f3409f2a852c62c4.rmeta: /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/lib.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/marker.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/read.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/mod.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/line.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/once.rs
+
+/home/obuchi/comp_programming/AHC/AHC008/tools/target/release/deps/libproconio-f3409f2a852c62c4.rlib: /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/lib.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/marker.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/read.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/mod.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/line.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/once.rs
+
+/home/obuchi/comp_programming/AHC/AHC008/tools/target/release/deps/proconio-f3409f2a852c62c4.d: /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/lib.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/marker.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/read.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/mod.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/line.rs /home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/once.rs
+
+/home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/lib.rs:
+/home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/marker.rs:
+/home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/read.rs:
+/home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/mod.rs:
+/home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/line.rs:
+/home/obuchi/.cargo/registry/src/github.com-1ecc6299db9ec823/proconio-0.3.6/src/source/once.rs:
